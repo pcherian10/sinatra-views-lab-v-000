@@ -5,7 +5,7 @@ class App < Sinatra::Base
   end
 
   get '/views' do
-    erb :views
+    erb :goodbye
   end
 
   get '/date' do
